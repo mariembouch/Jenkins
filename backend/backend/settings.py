@@ -109,13 +109,15 @@ WSGI_APPLICATION = "backend.wsgi.application"
 # }
 
 
+
+
 DATABASES = {
 'default': {
 'ENGINE': 'django.db.backends.mysql',
 'NAME': ‘enis_tp’,
 'USER': 'dbuser',
 'PASSWORD': 'DBpassword2024',
-'HOST': 'mydb.ct44eke041k1.us-east-1.rds.amazonaws.com',
+'HOST': 'DB_HOST',
 'PORT': 3306,
 }
 }

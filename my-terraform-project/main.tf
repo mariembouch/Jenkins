@@ -1,6 +1,6 @@
 terraform {
     backend "s3" {
-	bucket= "enis-terraform-for-state-file-0125-44051915" # Replace with your S3 bucket name
+	bucket= "enis-terraform-for-state-file-0125-df27e394" # Replace with your S3 bucket name
 	key = "terraform-project/terraform.tfstate" # Location of the state file in the bucket
 	region = "us-east-1" # AWS region
 	dynamodb_table = "terraform-state-locking-1256" # Replace with your DynamoDB table name
